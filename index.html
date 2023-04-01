@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Include p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="container">
+        <h1>Maze Generator</h1>
+        <div class="form-container">
+            <form onsubmit="handleSubmit(event)" autocomplete="off">
+                <input type="text" id="input" placeholder="Enter number of rows"><br>
+                <button type="submit">Generate Maze</button>
+            </form>
+        </div>
+    </div>
+    <script src="generateMaze.js"></script>
+  </body>
+</html>

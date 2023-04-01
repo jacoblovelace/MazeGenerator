@@ -1,0 +1,34 @@
+:root {
+    --canvas-size: 600px;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: #259;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    margin: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-container form {
+    height: 30px;
+    display: flex;
+    width: calc(var(--canvas-size)/2);
+}
+
+canvas {
+    height: var(--canvas-size) !important;
+    width: var(--canvas-size) !important;
+    border: 4px solid black;
+}
